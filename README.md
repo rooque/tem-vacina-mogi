@@ -1,6 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tem vacina?
+
+- Mostra a quantidade de vacinas disponíveis para agendamento em Mogi das Cruzes em tempo real.
+- Utiliza a estratégia stale-while-revalidate. Primeiro retorna os dados do cache (desatualizados), depois envia a solicitação de revalidação e, finalmente, atualiza os dados.
+- SSR com Next.js e Vercel - Otimizado para performance e TTI.
+- Responsivo + Tema Light/Dark.
+- Menu com filtros + Alerta sonoro para avisar se alguma vacina ficou disponível.
+
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
@@ -26,9 +35,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
